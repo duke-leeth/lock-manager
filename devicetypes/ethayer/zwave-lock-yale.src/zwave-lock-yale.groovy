@@ -1448,6 +1448,8 @@ def setCode(codeID, code, codeName = null) {
 		cmds = delayBetween(cmds, 4200)
 	}
 	cmds
+
+	log.debug " ----- code:${code} \n ----- cmds: \n ${cmds} \n"
 }
 
 /**
